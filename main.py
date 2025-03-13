@@ -71,5 +71,5 @@ new_playlist_id = (new_playlist["id"])
 # sp_client = spotipy.client.Spotify()
 sp.playlist_add_items(
     playlist_id=new_playlist_id,
-    items=uri, #TODO - figure out how to get LIST of track URIs, URLs, or IDs
+    items=uri
 )
